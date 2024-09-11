@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://media.istockphoto.com/id/1750573488/vector/woman-sitting-on-roof-flat-concept-vector-spot-illustration.jpg?s=612x612&w=0&k=20&c=rsuInzbuQy9m_p5q881EyLQQGC3rqWT_h96yo9xGAmE='); /* Use an online image */
+        background-image: url('https://thumbs.dreamstime.com/b/image-flood-24680986.jpg'); /* Use an online image */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
