@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('background.jpg'); /* Adjust path if image is in a subdirectory */
+        background-image: url('https://media.istockphoto.com/id/1327617934/photo/aerial-view-of-flooded-houses-with-dirty-water-of-dnister-river-in-halych-town-western-ukraine.jpg?s=612x612&w=0&k=20&c=ffFK1c1lx15S3PlX-tee1py2wkLiKYLad67VvFwTG2I='); /* Use an online image */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
