@@ -22,10 +22,13 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 # Your Streamlit app content
 st.title("Flood Prediction Project Using ML")
 st.write("Welcome to the Flood Prediction App!")
+# Add the line at the end of the app
+st.write("---")  # This adds a horizontal line as a separator
+st.markdown("### ML Project by Sayma M, MCA II")
+
 # Upload the datasets
 st.write("Upload your rainfall dataset:")
 uploaded_rain = st.file_uploader("Choose Rainfall CSV file", type="csv")
