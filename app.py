@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://cdn.pixabay.com/photo/2024/02/28/22/16/ai-generated-8602955_1280.jpg'); /* Use an online image */
+        background-image: url('https://cdn.pixabay.com/photo/2020/03/18/13/26/water-4944009_1280.jpg'); /* Use an online image */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
