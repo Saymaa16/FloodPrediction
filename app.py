@@ -5,9 +5,27 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-# Title for the web app
-st.title('Flood Prediction Web App')
+import streamlit as st
 
+# Add custom CSS to style the background image
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url('background.jpg'); /* Adjust path if image is in a subdirectory */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Your Streamlit app content
+st.title("Flood Prediction Web App")
+st.write("Welcome to the Flood Prediction App!")
 # Upload the datasets
 st.write("Upload your rainfall dataset:")
 uploaded_rain = st.file_uploader("Choose Rainfall CSV file", type="csv")
