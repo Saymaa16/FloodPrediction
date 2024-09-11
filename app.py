@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url('https://media.istockphoto.com/id/1327617934/photo/aerial-view-of-flooded-houses-with-dirty-water-of-dnister-river-in-halych-town-western-ukraine.jpg?s=612x612&w=0&k=20&c=ffFK1c1lx15S3PlX-tee1py2wkLiKYLad67VvFwTG2I='); /* Use an online image */
+        background-image: url('https://cdn.pixabay.com/photo/2024/02/28/22/16/ai-generated-8602955_1280.jpg'); /* Use an online image */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -24,7 +24,7 @@ st.markdown(
 )
 
 # Your Streamlit app content
-st.title("Flood Prediction Web App")
+st.title("Flood Prediction Project Using ML")
 st.write("Welcome to the Flood Prediction App!")
 # Upload the datasets
 st.write("Upload your rainfall dataset:")
