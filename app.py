@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 
 # Your Streamlit app content
 st.title("Flood Prediction Project Using ML")
-st.write("Welcome to the Flood Prediction App!")
+st.write("Welcome to the Flood Prediction Web App!")
 # Add the line at the end of the app
 st.write("---")  # This adds a horizontal line as a separator
 st.markdown("### ML Project by Sayma M, MCA II")
