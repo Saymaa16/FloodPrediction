@@ -5,23 +5,6 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
-import streamlit as st
-
-# Add custom CSS to style the background image
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: url('https://assets.telegraphindia.com/telegraph/2020/Sep/1598988182_2020_8img30_aug_2020_pti30-08-2020_000173b.jpg'); /* Use an online image */
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 # Your Streamlit app content
 st.title("Flood Prediction Project Using ML")
 st.write("Welcome to the Flood Prediction App!")
